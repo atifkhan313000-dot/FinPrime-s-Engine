@@ -1,0 +1,14 @@
+# Ignore authentication tokens and private JSON files
+*.json
+.atif_core_auth
+.atif_engine_auth
+.cobraz_auth
+.finprime_engine_auth
+
+# Ignore local output/backup folders
+backups/
+outputs/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
